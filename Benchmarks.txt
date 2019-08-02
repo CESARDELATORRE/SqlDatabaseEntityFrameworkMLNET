@@ -1,0 +1,73 @@
+
+
+==============================================================================================
+1.) 10GB Database with EF, localdb database on local drive:
+Training model...
+elapsed time for training the model = 19896291 --> 5.5 hours
+Evaluating the model...
+elapsed time for evaluating the model = 20336384 --> 5.65 hours
+************************************************************
+*       Metrics for ====Evaluation Metrics for Large datasets stored in Database==== binary classification model
+*-----------------------------------------------------------
+*       Accuracy: 96.85%
+*       Area Under Curve:      71.90%
+*       Area under Precision recall Curve:  8.90%
+*       F1Score:  0.04%
+*       LogLoss:  .19
+*       LogLossReduction:  .07
+*       PositivePrecision:  .59
+*       PositiveRecall:
+*       NegativePrecision:  .97
+*       NegativeRecall:  100.00%
+************************************************************
+=============== Press any key ===============
+
+==============================================================================================
+
+
+==============================================================================================
+2.) 10GB Database with EF, AZURE SQL DATABASE (Standard S2: 50 DTUs):
+Training model...
+elapsed time for training the model = 20852894 mlSecs --> 5.8 hours
+Evaluating the model...
+elapsed time for evaluating the model = 21305901 --> 5.91 hours
+************************************************************
+*       Metrics for ====Evaluation Metrics for Large datasets stored in Database==== binary classification model
+*-----------------------------------------------------------
+*       Accuracy: 96.85%
+*       Area Under Curve:      71.90%
+*       Area under Precision recall Curve:  8.90%
+*       F1Score:  0.04%
+*       LogLoss:  .19
+*       LogLossReduction:  .07
+*       PositivePrecision:  .59
+*       PositiveRecall:
+*       NegativePrecision:  .97
+*       NegativeRecall:  100.00%
+************************************************************
+=============== Press any key ===============
+
+
+
+
+==============================================================================================
+2.) 10GB Database with EF, AZURE SQL DATABASE (General Purpose: Serverless, Gen5, 4 vCores)
+
+elapsed time for training the model = 22797218 mlSecs --> 6.33 hours
+Evaluating the model...
+elapsed time for evaluating the model = 23286105 mlSecs --> 6.46 hours
+************************************************************
+*       Metrics for ====Evaluation Metrics for Large datasets stored in Database==== binary classification model
+*-----------------------------------------------------------
+*       Accuracy: 96.85%
+*       Area Under Curve:      71.90%
+*       Area under Precision recall Curve:  8.90%
+*       F1Score:  0.04%
+*       LogLoss:  .19
+*       LogLossReduction:  .07
+*       PositivePrecision:  .59
+*       PositiveRecall:
+*       NegativePrecision:  .97
+*       NegativeRecall:  100.00%
+************************************************************
+=============== Press any key ===============
