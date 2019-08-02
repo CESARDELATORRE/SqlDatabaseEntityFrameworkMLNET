@@ -14,12 +14,12 @@ namespace LargeDatasetsInSqlServer
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //local localdb SQL Database
-            //string connectionString = @"Data Source=(localdb)\MSSQLLocalDb;Initial Catalog=Criteo10GB_EF;Integrated Security=True;Pooling=False";
+            //string connectionString = @"Data Source=(localdb)\MSSQLLocalDb;Initial Catalog=YOUR-DATABASE;Integrated Security=True;Pooling=False";
 
             //Azure SQL DB (General Purpose: Serverless, Gen5, 4 vCores)   
 
             //This is using Criteo10GB_EF database with the UrlClickId column ID needed by EF.
-            string connectionString = @"Server=tcp:mlnetdatasetsserverless.database.windows.net,1433; Initial Catalog = Criteo10GB_EF; Persist Security Info = False; User ID = YOUR_USER; Password = YOUR_PASSWORD; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;";
+            string connectionString = @"YOUR-CONNECTION-STRING";
 
             //NO retries
             //optionsBuilder.UseSqlServer(connectionString);
